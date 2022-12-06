@@ -3,13 +3,57 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: pink;
+}
+ 
+body{
+    background: pink;
 }
 
 
 .container{
+    padding: 0;
+    width: 85%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
-    width: 100%;
-    font-family: "Rubik", sans-serif;
+    
+
+.articleContainer{
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+div{
+
+    width: 20%;
+}
+
+
+h4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #f0efef;
+    color: grey;
+    
 }
 
 
@@ -47,8 +91,10 @@ header h1{
 }
 
 form{
-    width: 50px;
+    width: 50%;
     padding: 1rem;
+    margin: auto;
+    
 }
 
 form fieldset{
@@ -63,39 +109,4 @@ form fieldset legend{
 }
 
 
-
-.articleContainer{
-
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin-top: 5%;
-    margin-left: 5%;
-
-
-
-}
-
-div{
-
-    width: 20%;
-}
-
-
-h4{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-
-a{
-    text-decoration: none;
-    padding: 5px;
-    background-color: #f0efef;
-    color: grey;
-    
-}
 
