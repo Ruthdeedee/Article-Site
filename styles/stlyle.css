@@ -32,6 +32,36 @@ header h1{
     margin: 50px auto;
 }
 
+.link-btn button{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font: 13px;
+    font-weight: 600;
+}
+
+.link-btn button:hover{
+    background-color: black;
+    border: 2px solid white;
+}
+
+form{
+    width: 50px;
+    padding: 1rem;
+}
+
+form fieldset{
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+form fieldset legend{
+    margin-left: 1rem;
+}
+
 
 
 .articleContainer{
@@ -68,3 +98,4 @@ a{
     color: grey;
     
 }
+
